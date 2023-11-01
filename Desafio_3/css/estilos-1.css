@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Bungee&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fc665b;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+header {
+    background-color: rgb(219, 54, 54);
+    border-right: 7px solid;
+    border-left: 7px solid;
+    border-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+}
+
+section {
+    background-color: rgb(219, 54, 54);
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+h2 { 
+    color: rgb(245, 245, 245);
+}
+
+article {
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 15px;
+    border-radius: 7px;
+}
+
+h3 {
+    text-align: right;
+    font-size: 24px;
+    color: rgb(180, 61, 61);
+    border-bottom: 1px dotted;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    
+}
+
+nav {
+    text-align: center;
+}
+
+.btn-comprar,
+.btn-volver {
+    padding: 7px;
+    background-color: rgb(6, 172, 56);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.btn-comprar:hover,
+.btn-volver:hover{
+    background-color: rgb(219, 54, 54);
+    color: white;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #dd5147;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}

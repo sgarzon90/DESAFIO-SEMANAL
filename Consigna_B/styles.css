@@ -1,0 +1,49 @@
+body {
+    background-color: bisque;
+}
+
+/* nav ul li {
+    display: inline-block;
+    color: #DA8843;
+    font-weight: bold;
+   
+} */
+
+div p {
+    color: #DA8843;
+    font-weight: bold;
+    font-size: larger;
+
+    margin-top: 0px;
+}
+
+ul li::marker {
+    color: black;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    color: #9D5A20;
+}
+
+
+h2 {
+    background-color: #DA8843;
+    color: rgb(219, 205, 174)
+}
+
+li span {
+    color: rgb(231, 151, 1);
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+footer {
+    background-color: #9D5A20;
+    font-family: 'Caprasimo', cursive;
+    text-align: center;
+}

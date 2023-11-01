@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+body {
+    background-color: #395C7D;
+    color: white;
+}
+
+h1 {
+    color: #1F5181;
+    background-color: white;
+    font-family: 'Caprasimo', cursive;
+    text-align: center;
+    padding: 15px;
+}
+
+footer {
+    color: #1F5181;
+    background-color: white;
+    font-family: 'Caprasimo', cursive;
+    text-align: center;
+}
+
+article h2 {
+    font-family: 'Courgette',cursive;
+}
+
+img {
+    width: 450px;
+    height: auto;
+    margin-left: 50px;
+}

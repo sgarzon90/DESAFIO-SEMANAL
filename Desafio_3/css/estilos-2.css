@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+
+@keyframes mover {
+    from {
+        transform:translateX(-200px) ;
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+header {
+    background-color: #e65100;
+    border-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 28px;
+    color: rgb(245, 245, 245);
+    text-shadow: 3px 1px 3px black, 100px 15px 100px blue, 0 0 5px darkblue;
+}
+
+h1 {
+    animation: mover 2s 1;
+}
+
+section {
+    padding: 10px;
+    display:flex;
+    min-height: 100vh;
+    background-color: #ff6d00;
+}
+
+h2 {
+    color: rgb(245, 245, 245);
+    /* text-shadow: 2px 3px 3px rgb(80, 80, 80), 1px 0px  rgb(255, 196, 0), 2px 0 5px rgb(253, 120, 31); */
+    text-shadow: 3px 2.5px 2px black, 0 0 80px rgb(0, 194, 58), 0 0 5px rgb(255, 87, 45);
+}
+
+article {
+    background-color: #ff8f00;
+    padding: 10px;
+    width: 70%;
+    margin: 1px;
+    border-radius: 10px;
+}
+
+h3 {
+    text-align: left;
+    font-size: 24px;
+    color: rgb(245, 245, 245);
+    text-shadow: 3px 2.5px 2px black, 0 0 80px blue, 0 0 5px rgb(255, 87, 45);
+    border-bottom: 1px dashed rgb(245, 245, 245);
+    margin-bottom: 12px;
+}
+
+img {
+    width: 100%;
+    height: 40%;
+    border: 2px solid #ff6f00;
+    border-radius: 4px;
+    transition: 0.4s;
+}
+
+img:hover {
+    box-shadow: 8px 8px 10px 0px #ff9800;
+    border-radius: 8px;
+    transform:scale(1.02)
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+nav {
+    text-align: center;
+    padding: 15px;
+}
+
+.btn-comprar,
+.btn-volver {
+    font-weight: bold;
+    text-decoration: none;
+    border: 0px;
+    background-image: linear-gradient(150deg,
+    #ff3d00,
+    black,
+    #51ff00);
+    border-radius: 8px;
+    color: #fff;
+    padding: 7px;
+    cursor: pointer;
+    transform: .3s;
+}
+
+.btn-comprar:hover,
+.btn-volver:hover {
+    background-image: linear-gradient(150deg,
+    #06b8ee,
+    black,
+    #ff3d00);
+    color: white;
+    border-radius: 10px;
+    text-shadow: 3px 1px 2px black, 0 0 80px blue, 0 0 5px rgb(255, 87, 45); 
+}
+
+ul, h4 {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #e65100;
+    text-shadow: 3px 1px 2px black, 0 0 80px blue, 0 0 5px rgb(255, 87, 45);
+    color: rgb(245, 245, 245);
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
