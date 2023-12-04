@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.Calculadora__title {
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 1px 1px 10px white;
+    background-color: rgb(255, 166, 0);
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+#display {
+    position: absolute;
+    top: 40px;
+    width: 330px;
+    height: 50px;
+    margin-left: 22px;
+    text-align: right;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.display-alert {
+    color: red;
+}
+
+.calculator {
+    position: relative;
+}
+
+#calculator-image {
+    height: 500px;
+    border-radius: 50px;
+}
+
+.area-clicked {
+    border: 2px solid black;
+}
