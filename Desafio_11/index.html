@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Venta de comida en linea">
+    <meta name="keywords" content="tienda, comida, arabe, mexicana, comida rápida">
+    <title>Restaurante San Juan</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+
+<body class="home">
+    <header class="header">
+        <h1 class="header__title">Restaurante San Juan</h1>
+    </header>
+    <div class="navbar__cart">
+        <img src="./img/food-delivery_3140881.png" alt="">
+        <span class="cart__quantity">0</span>
+    </div>
+    <div class="modal" id="cartModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Resumen del Carrito</h2>
+            <div id="cartSummary">
+            </div>
+        </div>
+    </div>
+    <main class="main">
+        <section class="section section--products">
+            <div class="card card__container">
+                <figure class="card card--product">
+                    <div class="card__image__container">
+                        <img class="card__image" src="./img/alitas.jpg" alt="x">
+                    </div>
+                    <h4 class="card__title">Alitas BBQ</h4>
+                    <p class="card__text card__text--short">
+                        Alitas BBQ con papas a la francesa y verduras.
+                    </p>
+                    <span class="card__price">25.00,00</span>
+                    <div class="card__button__container">
+                        <button class="button button--sm button--add">Agregar</button>
+                        <span class="quantity">0</span>
+                        <button class="button button--sm button--remove">Quitar</button>
+                    </div>
+                </figure>
+
+                <figure class="card card--product">
+                    <div class="card__image__container">
+                        <img class="card__image" src="./img/ensalada.jpg" alt="x">
+                    </div>
+                    <h4 class="card__title">Ensalada Cesar</h4>
+                    <p class="card__text card__text--short">
+                        Ensalada Cesar con salsa especial de la casa.
+                    </p>
+                    <span class="card__price">30.00,00</span>
+                    <div class="card__button__container">
+                        <button class="button button--sm button--add">Agregar</button>
+                        <span class="quantity">0</span>
+                        <button class="button button--sm button--remove">Quitar</button>
+                    </div>
+                </figure>
+
+                <figure class="card card--product">
+                    <div class="card__image__container">
+                        <img class="card__image" src="./img/hamburguesa.jpg" alt="x">
+                    </div>
+                    <h4 class="card__title">Hamburguesa</h4>
+                    <p class="card__text card__text--short">
+                        Hamburguesa con pan artesanal, tocineta, queso americano y papas a las francesa.
+                    </p>
+                    <span class="card__price">28.00,00</span>
+                    <div class="card__button__container">
+                        <button class="button button--sm button--add">Agregar</button>
+                        <span class="quantity">0</span>
+                        <button class="button button--sm button--remove">Quitar</button>
+                    </div>
+                </figure>
+
+                <figure class="card card--product">
+                    <div class="card__image__container">
+                        <img class="card__image" src="./img/pastas.jpg" alt="x">
+                    </div>
+                    <h4 class="card__title">Pastas</h4>
+                    <p class="card__text card__text--short">
+                        Pastas con proteina de pollo, champiñones y verduras.
+                    </p>
+                    <span class="card__price">45.00,00</span>
+                    <div class="card__button__container">
+                        <button class="button button--sm button--add">Agregar</button>
+                        <span class="quantity">0</span>
+                        <button class="button button--sm button--remove">Quitar</button>
+                    </div>
+                </figure>
+
+                <figure class="card card--product">
+                    <div class="card__image__container">
+                        <img class="card__image" src="./img/pizza.jpg" alt="x">
+                    </div>
+                    <h4 class="card__title">Pizza Gourmet</h4>
+                    <p class="card__text card__text--short">
+                        Pizza veggie con salsa de buffala
+                    </p>
+                    <span class="card__price">50.00,00</span>
+                    <div class="card__button__container">
+                        <button class="button button--sm button--add">Agregar</button>
+                        <span class="quantity">0</span>
+                        <button class="button button--sm button--remove">Quitar</button>
+                    </div>
+                </figure>
+
+                <figure class="card card--product">
+                    <div class="card__image__container">
+                        <img class="card__image" src="./img/pollo.jpg" alt="x">
+                    </div>
+                    <h4 class="card__title">Pollo Apanado</h4>
+                    <p class="card__text card__text--short">
+                        Pollo apanado con ensaladas
+                    </p>
+                    <span class="card__price">30.00,00</span>
+                    <div class="card__button__container">
+                        <button class="button button--sm button--add">Agregar</button>
+                        <span class="quantity">0</span>
+                        <button class="button button--sm button--remove">Quitar</button>
+                    </div>
+                </figure>
+
+                <figure class="card card--product">
+                    <div class="card__image__container">
+                        <img class="card__image" src="./img/sandwiche.jpg" alt="x">
+                    </div>
+                    <h4 class="card__title">Sandwich</h4>
+                    <p class="card__text card__text--short">
+                        Sandwich con papas a la francesa.
+                    </p>
+                    <span class="card__price">20.00,00</span>
+                    <div class="card__button__container">
+                        <button class="button button--sm button--add">Agregar</button>
+                        <span class="quantity">0</span>
+                        <button class="button button--sm button--remove">Quitar</button>
+                    </div>
+                </figure>
+
+                <figure class="card card--product">
+                    <div class="card__image__container">
+                        <img class="card__image" src="./img/tacos.jpg" alt="x">
+                    </div>
+                    <h4 class="card__title">Tacos al pastor</h4>
+                    <p class="card__text card__text--short">
+                        Tacos al Pastor con verduras y trozos de carne.
+                    </p>
+                    <span class="card__price">18.00,00</span>
+                    <div class="card__button__container">
+                        <button class="button button--sm button--add">Agregar</button>
+                        <span class="quantity">0</span>
+                        <button class="button button--sm button--remove">Quitar</button>
+                    </div>
+                </figure>
+
+                <figure class="card card--product">
+                    <div class="card__image__container">
+                        <img class="card__image" src="./img/waffle.jpg" alt="x">
+                    </div>
+                    <h4 class="card__title">Waffle</h4>
+                    <p class="card__text card__text--short">
+                        Waffle con helado y frutas.
+                    </p>
+                    <span class="card__price">19.00,00</span>
+                    <div class="card__button__container">
+                        <button class="button button--sm button--add">Agregar</button>
+                        <span class="quantity">0</span>
+                        <button class="button button--sm button--remove">Quitar</button>
+                    </div>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
