@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+}
+
+body {
+    padding: 1vw;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    padding: 2vw;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    background-color: rgb(134, 121, 121);
+    border-radius: 10px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li a:link,
+header nav ul li a:visited {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.link-active:link,
+.link-active:visited {
+    color: brown;
+    font-weight: bold;
+}
+
+header nav div button,
+#submit {
+    padding: 0.25rem;
+}
+
+header nav div input {
+    width: 50px;
+    padding: 0.25rem;
+}
+
+section div p img {
+    width: 25%;
+    margin-right: 1rem;
+    float: left;
+}
+
+section {
+    padding: 2vw 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+}
+
+body {
+    background-color: rgb(154, 138, 138);
+}
+
+.card__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-radius: 10px;
+}
+
+.movie {
+    border: 2px black solid;
+    background-color: rgb(224, 221, 221);
+    width: auto;
+    height: 200px;
+}
+
+#main__menu {
+    display: flex;
+}
+
+#searchbar {
+    display: flex;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 10px;
+    width: 40vw;
+}
+
+#home,
+#agregar {
+    margin-right: 10px;
+}
+
+#back,
+#forward,
+#submit {
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px -3px #00000040, -5px -5px 15px 3px #ffffff1f;
+}
+
+#back:hover,
+#forward:hover,
+#submit:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px -3px rgba(255, 255, 255, 0.571), -5px -5px 15px 3px #beb9b9d5;
+}
+
+.test {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#filter {
+    display: flex;
+    justify-content: end;
+}
+
+#addMovieForm {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 100%;
+    justify-content: center;
+}
+
+.add__form {
+    margin: 10px 0;
+}
+
+textarea {
+    resize: none;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .card__container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card__image--about {
+        width: 96vw;
+    }
+
+    .form {
+        grid-template-columns: 90%;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .card__container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .card__image--about {
+        width: 70vw;
+    }
+
+    .form {
+        grid-template-columns: 75%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .card__container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .card__image--about {
+        width: 18vw;
+    }
+}
