@@ -1,0 +1,53 @@
+$primary-color: #3498db;
+$danger-color: #e74c3c;
+
+.task-form {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: $primary-color;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: darken($primary-color, 10%);
+    }
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid $primary-color;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.edit-mode {
+    background-color: #f0f0f0;
+    border: 2px solid #42b72a;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 280px) {
+
+    form {
+        flex-direction: column;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+}

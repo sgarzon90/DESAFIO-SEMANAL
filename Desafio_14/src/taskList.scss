@@ -1,0 +1,43 @@
+$primary-color: #3498db;
+$danger-color: #e74c3c;
+$dark-color: rgb(0, 0, 0);
+
+.task-list {
+    list-style-type: none;
+    padding: 0;
+
+
+}
+
+li {
+    background-color: $danger-color;
+    color: white;
+    padding: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    button {
+        background-color: $danger-color;
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+        &:hover {
+            background-color: darken($danger-color, 10%);
+        }
+    }
+}
+
+.favorite-icon,
+.notFavoriteIcon {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.selected-task {
+    border: 4px solid $dark-color;
+}
