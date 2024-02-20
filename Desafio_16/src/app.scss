@@ -1,0 +1,81 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(227, 222, 215);
+}
+
+.app-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.app-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.app-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+}
+
+.app-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-form-container {
+    background-color: #f8f9fa;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.form-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.product-list {
+    list-style: none;
+    padding: 0;
+}
+
+.product-item {
+    background-color: #f8f9fa;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-info {
+    flex: 1;
+}
+
+.product-name {
+    font-weight: bold;
+}
+
+.product-actions button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.edit-button {
+    background-color: #9ec98d;
+    color: #fff;
+}
+
+.delete-button {
+    background-color: #bf6c74;
+    color: #fff;
+}
